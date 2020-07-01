@@ -11,6 +11,7 @@ pool_x.py利用图像目录生成模型所需数据，fl*为半帧像素高（如：fl2为半帧为2像素，fl
 python pool_x_overlap.py fl8 testing_set_data.lst 
 运行样例（按相邻帧不重叠、半帧高8像素的方式对列表文件中的图像进行预处理）：
 python pool_x_nonoverlap fl8 testing_set_data.lst 
+
 2. 预处理图像标签
 pool_y.py利用图像标签生成模型所需数据，.lst文件中为图像列表文件中各个图像的标签
 运行样例：
