@@ -61,3 +61,6 @@ THEANO_FLAGS=mode=FAST_RUN,device=cuda1,floatX=float32 python train.py fl8 200
 ```bash
 THEANO_FLAGS=mode=FAST_RUN,device=cuda0,floatX=float32 python test.py fl2 100
 ```
+
+### 6.输出特征向量
+使用lstm_att.py可将图像送入指定模型中，输出图像对应的特征向量
